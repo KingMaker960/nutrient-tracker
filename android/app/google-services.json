@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "252149921522",
+    "project_id": "nutrient-tracker-2ff8c",
+    "storage_bucket": "nutrient-tracker-2ff8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252149921522:android:1282e33f26a86b4579c26b",
+        "android_client_info": {
+          "package_name": "com.example.manipal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252149921522-1v5vse0126uncgmjhot4gmggt9g3noj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manipal",
+            "certificate_hash": "3866b2777ec1930f9e22dddf435b6e92277d86b6"
+          }
+        },
+        {
+          "client_id": "252149921522-9lluske8jo7gpdkmiuk9107jktr6ngpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKtOsIwLhQeezPeGHzXIJ5MGxpl5_2RyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252149921522-9lluske8jo7gpdkmiuk9107jktr6ngpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
