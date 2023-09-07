@@ -39,15 +39,13 @@ Before you begin, please ensure your system meets the following requirements:
 
 To install the Nutrients Tracking App, follow these steps:
 
-1. [Download](#) the latest version of the app for your operating system.
+1. Install the application by following the on-screen instructions.
 
-2. Install the application by following the on-screen instructions.
+2. Launch the app and create a user account.
 
-3. Launch the app and create a user account.
+3. Configure your profile with relevant information such as age, gender, and dietary preferences.
 
-4. Configure your profile with relevant information such as age, gender, and dietary preferences.
-
-5. You're ready to start tracking your nutrients!
+4. You're ready to start tracking your nutrients!
 
 ## Usage
 
@@ -85,7 +83,7 @@ Stay on track by setting personalized nutrient goals:
 - [x] Loging UI with otp verification
 - [x] Navigation
 - [x] Nutrient recommandation
-- [ ] Mutrient consumption charts
+- [ ] Nutrient consumption charts
 - [ ] BMI calculation
 - [ ] Food macros and micros calculation
 
