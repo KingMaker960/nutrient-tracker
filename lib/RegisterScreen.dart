@@ -6,7 +6,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:manipal/otpverification.dart';
 import 'package:manipal/widgets/customnavigation.dart';
 import 'package:manipal/widgets/sqlqueries.dart';
-import 'package:manipal/widgets/textfield_widget.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({Key? key}) : super(key: key);
@@ -570,7 +569,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                 Navigator.pushReplacement(
                                     context,
                                     CustomPageRoute(
-                                        child: otpLogin(
+                                        child: OtpLogin(
                                       name: nameController.value.text,
                                       age: ageController.value.text,
                                       number: numberController.value.text,

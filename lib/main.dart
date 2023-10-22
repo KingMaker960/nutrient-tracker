@@ -4,7 +4,6 @@ import 'package:manipal/HomeScreen.dart';
 import 'package:manipal/LoginScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'GetStarted.dart';
-import 'otpverification.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

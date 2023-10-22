@@ -1,9 +1,6 @@
 // ignore_for_file: sort_child_properties_last, deprecated_member_use
 
-import 'dart:ffi';
 import 'package:circular_reveal_animation/circular_reveal_animation.dart';
-import 'package:manipal/widgets/sqlqueries.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter/material.dart';

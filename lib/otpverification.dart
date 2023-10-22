@@ -1,25 +1,24 @@
 import 'dart:async';
-import 'dart:ffi';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:manipal/HomeScreen.dart';
 import 'package:manipal/LoginScreen.dart';
 import 'package:manipal/constants.dart';
 import 'package:manipal/widgets/customnavigation.dart';
 import 'package:manipal/widgets/sqlqueries.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class otpLogin extends StatefulWidget {
+// ignore: must_be_immutable
+class OtpLogin extends StatefulWidget {
   final String name;
   final String age;
   final String number;
   final String rollnumber;
   final String password;
   String otp;
-  otpLogin(
+  OtpLogin(
       {Key? key,
       required this.name,
       required this.age,
@@ -30,10 +29,10 @@ class otpLogin extends StatefulWidget {
       : super(key: key);
 
   @override
-  State<otpLogin> createState() => _otpLoginState();
+  State<OtpLogin> createState() => _OtpLoginState();
 }
 
-class _otpLoginState extends State<otpLogin> {
+class _OtpLoginState extends State<OtpLogin> {
   Icon icon = const Icon(
     FontAwesomeIcons.check,
     size: 43,
@@ -116,12 +115,7 @@ class _otpLoginState extends State<otpLogin> {
         sharedPreferences.setString('visited', 'true');
         setState(() {
           _success = true;
-          Icon icon = const Icon(
-            FontAwesomeIcons.check,
-            size: 43,
-            color: Colors.white,
-          );
-          Color color = Color_Green;
+
           ScaffoldMessenger.of(context).showSnackBar(snackbar);
         });
         await Future.delayed(const Duration(milliseconds: 2200));
